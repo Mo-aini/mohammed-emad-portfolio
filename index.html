@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Mohammed Emad Alaini | Software Engineer & Full-Stack Developer</title>
+    <meta name="description" content="Portfolio of Mohammed Emad Alaini, a Software Engineer and Full-Stack Developer building real-world web applications, software systems, database-driven platforms, and modern digital experiences.">
+    <meta name="keywords" content="Software Engineer, Full-Stack Developer, Web Development, C++, JavaScript, HTML, CSS, SQL Server, Portfolio, Mohammed Emad Alaini">
+    <meta name="author" content="Mohammed Emad Alaini">
+    <meta name="robots" content="index, follow">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:title" content="Mohammed Emad Alaini | Software Engineer & Full-Stack Developer">
+    <meta property="og:description" content="Portfolio of Mohammed Emad Alaini, a Software Engineer and Full-Stack Developer building real-world web applications, software systems, database-driven platforms, and modern digital experiences.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://mohammedalaini.dev">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:locale:alternate" content="ar_AR">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Mohammed Emad Alaini | Software Engineer & Full-Stack Developer">
+    <meta name="twitter:description" content="Portfolio of Mohammed Emad Alaini, a Software Engineer and Full-Stack Developer building real-world web applications, software systems, database-driven platforms, and modern digital experiences.">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://mohammedalaini.dev">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+
+    <!-- Google Fonts: Space Grotesk, Inter, Cairo (Arabic), IBM Plex Sans Arabic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to Content for Accessibility -->
+    <a href="#home" class="skip-to-content">Skip to main content</a>
+
+    <!-- Preloader -->
+    <div id="preloader" class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">MEA</div>
+            <div class="preloader-name">MOHAMMED EMAD ALAINI</div>
+            <div class="preloader-percentage">00</div>
+        </div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div id="cursor" class="custom-cursor"></div>
+    <div id="cursor-label" class="custom-cursor-label"></div>
+    
+    <!-- Project Hover Preview -->
+    <div id="project-preview" class="project-preview">
+        <div class="project-preview-visual"></div>
+        <div class="project-preview-info">
+            <span class="project-preview-number"></span>
+            <span class="project-preview-label">EXPLORE PROJECT</span>
+        </div>
+    </div>
+
+    <!-- Background -->
+    <div class="background-noise"></div>
+    <div class="background-grid"></div>
+    <div class="background-grain"></div>
+    <div class="background-light"></div>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress">
+        <div class="scroll-progress-bar"></div>
+        <div class="scroll-progress-numbers">
+            <span class="progress-number active" data-section="1">01</span>
+            <span class="progress-number" data-section="2">02</span>
+            <span class="progress-number" data-section="3">03</span>
+            <span class="progress-number" data-section="4">04</span>
+            <span class="progress-number" data-section="5">05</span>
+            <span class="progress-number" data-section="6">06</span>
+            <span class="progress-number" data-section="7">07</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="#home" class="nav-logo">MEA</a>
+        </div>
+        <div class="nav-center">
+            <button id="lang-toggle" class="lang-toggle" aria-label="Switch Language">
+                <span class="lang-current">EN</span>
+                <span class="lang-divider">/</span>
+                <span class="lang-other">AR</span>
+            </button>
+        </div>
+        <div class="nav-right">
+            <button id="menu-toggle" class="menu-toggle" aria-label="Menu">
+                <span class="menu-toggle-text">MENU</span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Full Screen Menu Overlay -->
+    <div id="menu-overlay" class="menu-overlay">
+        <nav class="menu-nav">
+            <a href="#home" class="menu-link" data-number="01">HOME</a>
+            <a href="#about" class="menu-link" data-number="02">ABOUT</a>
+            <a href="#work" class="menu-link" data-number="03">WORK</a>
+            <a href="#expertise" class="menu-link" data-number="04">EXPERTISE</a>
+            <a href="#contact" class="menu-link" data-number="05">CONTACT</a>
+        </nav>
+        <button id="menu-close" class="menu-close" aria-label="Close Menu">CLOSE</button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-subtitle">
+                <span data-en="SOFTWARE ENGINEER" data-ar="مهندس برمجيات">SOFTWARE ENGINEER</span>
+                <span data-en="FULL-STACK DEVELOPER" data-ar="مطور Full-Stack">FULL-STACK DEVELOPER</span>
+            </div>
+            <div class="hero-title">
+                <span class="hero-title-line" data-en="BUILDING" data-ar="نبني">BUILDING</span>
+                <span class="hero-title-line" data-en="DIGITAL" data-ar="تجارب">DIGITAL</span>
+                <span class="hero-title-line" data-en="EXPERIENCES." data-ar="رقمية.">EXPERIENCES.</span>
+            </div>
+            <div class="hero-name" data-en="MOHAMMED EMAD ALAINI" data-ar="محمد عماد العيني">MOHAMMED EMAD ALAINI</div>
+            <div class="hero-description" data-en="Software Engineering student and Full-Stack Developer focused on building real-world web applications, software systems, and modern digital experiences." data-ar="طالب هندسة برمجيات ومطور Full-Stack متخصص في بناء تطبيقات الويب وأنظمة البرمجيات وتجارب رقمية حديثة.">
+                Software Engineering student and Full-Stack Developer focused on building real-world web applications, software systems, and modern digital experiences.
+            </div>
+
+            <!-- Hero CTAs -->
+            <div class="hero-ctas">
+                <a href="#work" class="hero-cta primary">
+                    <span data-en="VIEW MY WORK" data-ar="شاهد أعمالي">VIEW MY WORK</span>
+                </a>
+                <a href="#contact" class="hero-cta secondary">
+                    <span data-en="LET'S WORK TOGETHER" data-ar="لنعمل معاً">LET'S WORK TOGETHER</span>
+                </a>
+                <a href="https://github.com/Mo-aini" target="_blank" rel="noopener noreferrer" class="hero-cta github" aria-label="View GitHub Profile">
+                    <svg class="github-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                    </svg>
+                    <span data-en="GITHUB" data-ar="جيت هب">GITHUB</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- 3D Abstract Element -->
+        <div class="hero-3d">
+            <div class="hero-3d-shape"></div>
+        </div>
+
+        <!-- Hero Micro Details -->
+        <div class="hero-footer">
+            <div class="hero-footer-left">
+                <span class="hero-footer-label" data-en="BASED BETWEEN" data-ar="مقر بين">BASED BETWEEN</span>
+                <span class="hero-footer-value" data-en="YEMEN / PAKISTAN" data-ar="اليمن / باكستان">YEMEN / PAKISTAN</span>
+            </div>
+            <div class="hero-footer-center">
+                <span class="hero-footer-label" data-en="SCROLL TO EXPLORE" data-ar="مر للتنقل">SCROLL TO EXPLORE</span>
+                <div class="scroll-indicator"></div>
+            </div>
+            <div class="hero-footer-right">
+                <span class="hero-footer-label" data-en="AVAILABLE FOR" data-ar="متاح لـ">AVAILABLE FOR</span>
+                <span class="hero-footer-value" data-en="DEVELOPMENT OPPORTUNITIES" data-ar="الفرص التطويرية">DEVELOPMENT OPPORTUNITIES</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Introduction / Manifesto -->
+    <section class="manifesto">
+        <div class="manifesto-content">
+            <div class="manifesto-line" data-en="I BUILD" data-ar="أبني">I BUILD</div>
+            <div class="manifesto-line" data-en="DIGITAL PRODUCTS" data-ar="منتجات رقمية">DIGITAL PRODUCTS</div>
+            <div class="manifesto-line" data-en="THAT TURN" data-ar="تحول">THAT TURN</div>
+            <div class="manifesto-line" data-en="IDEAS INTO" data-ar="الأفكار إلى">IDEAS INTO</div>
+            <div class="manifesto-line" data-en="REAL EXPERIENCES." data-ar="تجارب حقيقية.">REAL EXPERIENCES.</div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="about-container">
+            <div class="about-left">
+                <span class="about-number">01</span>
+                <span class="about-label" data-en="ABOUT" data-ar="نبذة عني">ABOUT</span>
+            </div>
+            <div class="about-right">
+                <h2 class="about-name" data-en="MOHAMMED EMAD ALAINI" data-ar="محمد عماد العيني">MOHAMMED EMAD ALAINI</h2>
+                <div class="about-text">
+                    <p data-en="I'm a Software Engineering student at Superior University with a passion for building real-world software solutions. My journey in software development began with curiosity and has evolved into building actual applications that solve real problems." data-ar="أنا طالب هندسة برمجيات في Superior University بشغف لبناء حلول برمجية للعالم الحقيقي. بدأت رحلتي في تطوير البرمجيات من الفضول وتطورت إلى بناء تطبيقات فعلية تحل مشاكل حقيقية.">I'm a Software Engineering student at Superior University with a passion for building real-world software solutions. My journey in software development began with curiosity and has evolved into building actual applications that solve real problems.</p>
+                    <p data-en="From parking management systems using C++ and data structures, to full-stack web applications with HTML, CSS, JavaScript, and SQL Server - I focus on practical implementation over theory alone. Each project I build teaches me something new about software architecture, database design, and user experience." data-ar="من أنظمة إدارة مواقف السيارات باستخدام C++ وهياكل البيانات، إلى تطبيقات الويب بـ HTML و CSS و JavaScript و SQL Server - أركز على التطبيق العملي بدلاً من النظرية فقط. كل مشروع أبنيه يعلمني شيئاً جديداً عن هندسة البرمجيات وتصميم قواعد البيانات وتجربة المستخدم.">From parking management systems using C++ and data structures, to full-stack web applications with HTML, CSS, JavaScript, and SQL Server - I focus on practical implementation over theory alone. Each project I build teaches me something new about software architecture, database design, and user experience.</p>
+                    <p data-en="I believe in continuous learning. Whether it's mastering C++ fundamentals, understanding database relationships, or crafting responsive interfaces - I approach each challenge with the mindset of an engineer: structured thinking, clean code, and practical solutions." data-ar="أؤمن بالتعلم المستمر. سواء كان إتقان أساسيات C++، أو فهم علاقات قواعد البيانات، أو صياغة واجهات متجاوبة - أتعامل مع كل تحدي بعقلية مهندس: تفكير منظم، كود نظيف، وحلول عملية.">I believe in continuous learning. Whether it's mastering C++ fundamentals, understanding database relationships, or crafting responsive interfaces - I approach each challenge with the mindset of an engineer: structured thinking, clean code, and practical solutions.</p>
+                </div>
+
+                <!-- Animated Statistics -->
+                <div class="about-stats">
+                    <div class="about-stat">
+                        <span class="about-stat-number" data-value="07">00</span>
+                        <span class="about-stat-label" data-en="FEATURED PROJECTS" data-ar="مشاريع مميزة">FEATURED PROJECTS</span>
+                    </div>
+                    <div class="about-stat">
+                        <span class="about-stat-text" data-en="FULL-STACK" data-ar="فول ستاك">FULL-STACK</span>
+                        <span class="about-stat-label" data-en="DEVELOPMENT" data-ar="تطوير">DEVELOPMENT</span>
+                    </div>
+                    <div class="about-stat">
+                        <span class="about-stat-text" data-en="SOFTWARE" data-ar="برمجيات">SOFTWARE</span>
+                        <span class="about-stat-label" data-en="ENGINEERING" data-ar="هندسة">ENGINEERING</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section class="journey">
+        <div class="journey-header">
+            <span class="journey-number">02</span>
+            <h2 class="journey-title" data-en="MY JOURNEY" data-ar="رحلتي">MY JOURNEY</h2>
+        </div>
+        <div class="journey-timeline">
+            <div class="journey-line"></div>
+            <div class="journey-item">
+                <div class="journey-year">2023</div>
+                <div class="journey-content">
+                    <h3 class="journey-title-text" data-en="Started Software Engineering" data-ar="بدأت هندسة البرمجيات">Started Software Engineering</h3>
+                    <p class="journey-description" data-en="Began my journey at Superior University, diving into programming fundamentals and computer science concepts." data-ar="بدأت رحلتي في Superior University، غاصاً في أساسيات البرمجة ومفاهيم علوم الكمبيوتر.">Began my journey at Superior University, diving into programming fundamentals and computer science concepts.</p>
+                </div>
+            </div>
+            <div class="journey-item">
+                <div class="journey-year">2023 — 2027</div>
+                <div class="journey-content">
+                    <h3 class="journey-title-text" data-en="Software Engineering Degree" data-ar="شهادة هندسة البرمجيات">Software Engineering Degree</h3>
+                    <p class="journey-description" data-en="Pursuing BS Software Engineering at Superior University, focusing on software architecture, databases, and web development." data-ar="أدرس بكالوريوس هندسة البرمجيات في Superior University، مع التركيز على هندسة البرمجيات وقواعد البيانات وتطوير الويب.">Pursuing BS Software Engineering at Superior University, focusing on software architecture, databases, and web development.</p>
+                </div>
+            </div>
+            <div class="journey-item">
+                <div class="journey-year">2024</div>
+                <div class="journey-content">
+                    <h3 class="journey-title-text" data-en="First Full-Stack Projects" data-ar="أول مشاريع Full-Stack">First Full-Stack Projects</h3>
+                    <p class="journey-description" data-en="Built Event Management System and Smart Parking System, combining frontend, backend, and database skills." data-ar="بنيت نظام إدارة الفعاليات ونظام الوقوف الذكي، موحداً مهارات الواجهة والخلفية وقواعد البيانات.">Built Event Management System and Smart Parking System, combining frontend, backend, and database skills.</p>
+                </div>
+            </div>
+            <div class="journey-item">
+                <div class="journey-year">2025</div>
+                <div class="journey-content">
+                    <h3 class="journey-title-text" data-en="Real-World Client Projects" data-ar="مشاريع عملاء حقيقية">Real-World Client Projects</h3>
+                    <p class="journey-description" data-en="Developed websites for Noor Luxury Residence (Bahria Town & Gulberg), Cafe 220, and Restaurant 220." data-ar="طورت مواقع لـ نور السكن الفاخر (بهيري تاون وغولبرغ)، مقهى 220، ومطعم 220.">Developed websites for Noor Luxury Residence (Bahria Town & Gulberg), Cafe 220, and Restaurant 220.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Engineering Philosophy -->
+    <section class="philosophy">
+        <div class="philosophy-container">
+            <div class="philosophy-item">
+                <div class="philosophy-number">01</div>
+                <div class="philosophy-content">
+                    <h3 class="philosophy-title" data-en="CLEAN ARCHITECTURE" data-ar="هندسة نظيفة">CLEAN ARCHITECTURE</h3>
+                    <p class="philosophy-text" data-en="Structured and maintainable code across frontend interfaces and backend systems." data-ar="كود منظم وقابل للصيانة عبر واجهات الواجهة الأمامية والأنظمة الخلفية.">Structured and maintainable code across frontend interfaces and backend systems.</p>
+                </div>
+            </div>
+            <div class="philosophy-item">
+                <div class="philosophy-number">02</div>
+                <div class="philosophy-content">
+                    <h3 class="philosophy-title" data-en="REAL-WORLD PROBLEM SOLVING" data-ar="حل مشاكل واقعية">REAL-WORLD PROBLEM SOLVING</h3>
+                    <p class="philosophy-text" data-en="Building systems for authentic operational challenges including ticket booking, parking, hospitality, real estate, and business websites." data-ar="بناء أنظمة للتحديات التشغيلية الحقيقية بما في ذلك حجز التذاكر، والوقوف، والضيافة، والعقارات، ومواقع الأعمال.">Building systems for authentic operational challenges including ticket booking, parking, hospitality, real estate, and business websites.</p>
+                </div>
+            </div>
+            <div class="philosophy-item">
+                <div class="philosophy-number">03</div>
+                <div class="philosophy-content">
+                    <h3 class="philosophy-title" data-en="CONTINUOUS GROWTH" data-ar="نمو مستمر">CONTINUOUS GROWTH</h3>
+                    <p class="philosophy-text" data-en="Constantly improving skills in C++, Python, JavaScript, databases, and modern web development." data-ar="تحسين المهارات باستمرار في C++ و Python و JavaScript وقواعد البيانات وتطوير الويب الحديث.">Constantly improving skills in C++, Python, JavaScript, databases, and modern web development.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Technology Constellation -->
+    <section class="skills">
+        <div class="skills-container">
+            <div class="skills-center">
+                <span class="skills-center-text" data-en="TECH STACK" data-ar="التقنيات">TECH STACK</span>
+            </div>
+            <div class="skills-categories">
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-en="LANGUAGES" data-ar="اللغات">LANGUAGES</h3>
+                    <div class="skill-category-items">
+                        <div class="skill-item-grid">
+                            <span class="skill-name">C++</span>
+                            <span class="skill-desc">Systems & Data Structures</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">Python</span>
+                            <span class="skill-desc">Backend & Automation</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-desc">Frontend & Interactivity</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-en="FRONTEND" data-ar="الواجهة الأمامية">FRONTEND</h3>
+                    <div class="skill-category-items">
+                        <div class="skill-item-grid">
+                            <span class="skill-name">HTML5</span>
+                            <span class="skill-desc">Structure & Semantics</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">CSS3</span>
+                            <span class="skill-desc">Styling & Animations</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">JavaScript</span>
+                            <span class="skill-desc">Dynamic Interactions</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-en="DATABASE" data-ar="قواعد البيانات">DATABASE</h3>
+                    <div class="skill-category-items">
+                        <div class="skill-item-grid">
+                            <span class="skill-name">MySQL</span>
+                            <span class="skill-desc">Relational Data</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">SQL Server</span>
+                            <span class="skill-desc">Enterprise DB & T-SQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-en="APIS" data-ar="واجهات برمجة التطبيقات">APIS</h3>
+                    <div class="skill-category-items">
+                        <div class="skill-item-grid">
+                            <span class="skill-name">REST APIs</span>
+                            <span class="skill-desc">Integration & Data Exchange</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="skill-category-title" data-en="TOOLS" data-ar="الأدوات">TOOLS</h3>
+                    <div class="skill-category-items">
+                        <div class="skill-item-grid">
+                            <span class="skill-name">Git</span>
+                            <span class="skill-desc">Version Control</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">GitHub</span>
+                            <span class="skill-desc">Code Repositories</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">Visual Studio</span>
+                            <span class="skill-desc">C++ Development</span>
+                        </div>
+                        <div class="skill-item-grid">
+                            <span class="skill-name">VS Code</span>
+                            <span class="skill-desc">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="work" class="projects">
+        <div class="projects-header">
+            <span class="projects-subtitle" data-en="SELECTED WORK" data-ar="أعمال مختارة">SELECTED WORK</span>
+            <h2 class="projects-title" data-en="REAL PROJECTS. REAL SYSTEMS. REAL EXPERIENCES." data-ar="مشاريع حقيقية. أنظمة حقيقية. تجارب حقيقية.">REAL PROJECTS. REAL SYSTEMS. REAL EXPERIENCES.</h2>
+        </div>
+        
+        <div class="projects-list">
+            <!-- Project 01 -->
+            <div class="project-item" data-project="1">
+                <div class="project-number">01</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=800&h=500&fit=crop" alt="Event Management System interface showing event listings and booking options" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="WEB APPLICATION" data-ar="تطبيق ويب">WEB APPLICATION</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title" data-en="Event Management & Ticket Booking System" data-ar="نظام إدارة الفعاليات وحجز التذاكر">Event Management & Ticket Booking System</h3>
+                        <p class="project-description" data-en="A web-based event management and ticket booking platform designed to organize events, present event information, and provide a streamlined ticket booking experience." data-ar="منصة إدارة الفعاليات وحجز التذاكر عبر الويب مصممة لتنظيم الفعاليات وعرض معلوماتها وتوفير تجربة سلسة لحجز التذاكر.">A web-based event management and ticket booking platform designed to organize events, present event information, and provide a streamlined ticket booking experience.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>SQL Server</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://event-management-tickets-booking77.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Event Management System Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 02 -->
+            <div class="project-item" data-project="2">
+                <div class="project-number">02</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1590674899484-d5640e854abe?w=800&h=500&fit=crop" alt="Smart Parking System dashboard showing parking management interface" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="SOFTWARE" data-ar="برمجيات">SOFTWARE</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title" data-en="Smart Parking System" data-ar="نظام وقوف ذكي">Smart Parking System</h3>
+                        <p class="project-description" data-en="A parking management project focused on organizing parking operations and providing a structured digital experience for managing parking information using C++ and data structures." data-ar="مشروع إدارة مواقف السيارات يركز على تنظيم عمليات الوقوف وتوفير تجربة رقمية منظمة لإدارة معلومات المواقف باستخدام C++ وهياكل البيانات.">A parking management project focused on organizing parking operations and providing a structured digital experience for managing parking information using C++ and data structures.</p>
+                        <div class="project-technologies">
+                            <span>C++</span>
+                            <span>Data Structures</span>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://parkingsystem-78.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Smart Parking System Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 03 -->
+            <div class="project-item" data-project="3">
+                <div class="project-number">03</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=800&h=500&fit=crop" alt="Zippy Begonia web application interface" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="WEB APPLICATION" data-ar="تطبيق ويب">WEB APPLICATION</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title" data-en="Zippy Begonia" data-ar="Zippy Begonia">Zippy Begonia</h3>
+                        <p class="project-description" data-en="A modern web application demonstrating responsive design and interactive web development principles." data-ar="تطبيق ويب حديث يوضح مبادئ التصميم المتجاوب وتطوير الويب التفاعلي.">A modern web application demonstrating responsive design and interactive web development principles.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Web Development</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://zippy-begonia-b49d7b.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Zippy Begonia Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 04 -->
+            <div class="project-item" data-project="4">
+                <div class="project-number">04</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=800&h=500&fit=crop" alt="Noor Luxury Residence Bahria Town website showcasing luxury apartment interiors" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="REAL ESTATE" data-ar="عقارات">REAL ESTATE</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title" data-en="Noor Luxury Residence — Bahria Town" data-ar="نور السكن الفاخر — بهيري تاون">Noor Luxury Residence — Bahria Town</h3>
+                        <p class="project-description" data-en="A premium property presentation website designed to showcase luxury accommodation and provide visitors with property information through a modern digital experience." data-ar="موقع ويب لعرض العقارات الفاخرة مصمم لإظهار السكن الفاخر وتزويد الزوار بمعلومات العقارات من خلال تجربة رقمية حديثة.">A premium property presentation website designed to showcase luxury accommodation and provide visitors with property information through a modern digital experience.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://noor-luxury-residence-bahria-town.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Noor Luxury Residence Bahria Town Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 05 -->
+            <div class="project-item" data-project="5">
+                <div class="project-number">05</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=500&fit=crop" alt="Noor Luxury Residence Gulberg website displaying luxury accommodation details" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="REAL ESTATE" data-ar="عقارات">REAL ESTATE</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title" data-en="Noor Luxury Residence — Gulberg" data-ar="نور السكن الفاخر — غولبرغ">Noor Luxury Residence — Gulberg</h3>
+                        <p class="project-description" data-en="A premium digital presence for Noor Luxury Residence in Gulberg, designed around luxury accommodation, visual presentation, and customer inquiries." data-ar="وجود رقمي متميز لنور السكن الفاخر في غولبرغ، مصمم حول السكن الفاخر والعرض البصري والاستفسارات من العملاء.">A premium digital presence for Noor Luxury Residence in Gulberg, designed around luxury accommodation, visual presentation, and customer inquiries.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://noor-luxury-residence-gulberg.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Noor Luxury Residence Gulberg Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 06 -->
+            <div class="project-item" data-project="6">
+                <div class="project-number">06</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?w=800&h=500&fit=crop" alt="Cafe 220 website showing cafe atmosphere and menu information" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="HOSPITALITY" data-ar="ضيافة">HOSPITALITY</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title" data-en="Cafe 220" data-ar="مقهى 220">Cafe 220</h3>
+                        <p class="project-description" data-en="A modern café website created to present the brand, atmosphere, menu-related content, and customer-facing information through a polished digital experience." data-ar="موقع مقهى حديث تم إنشاؤه لعرض العلامة التجارية والأجواء والمحتوى المتعلق بالقائمة والمعلومات الموجهة للعملاء من خلال تجربة رقمية مصقولة.">A modern café website created to present the brand, atmosphere, menu-related content, and customer-facing information through a polished digital experience.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://cafe220.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Cafe 220 Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Project 07 -->
+            <div class="project-item" data-project="7">
+                <div class="project-number">07</div>
+                <div class="project-content">
+                    <div class="project-visual">
+                        <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&h=500&fit=crop" alt="Restaurant 220 website featuring restaurant ambiance and dining options" class="project-image" loading="lazy">
+                        <div class="project-visual-overlay"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category" data-en="HOSPITALITY" data-ar="ضيافة">HOSPITALITY</span>
+                            <span class="project-year">2025</span>
+                        </div>
+                        <h3 class="project-title" data-en="Restaurant 220" data-ar="مطعم 220">Restaurant 220</h3>
+                        <p class="project-description" data-en="A restaurant-focused web experience designed to present the restaurant digitally with a clean, modern, customer-friendly interface." data-ar="تجربة ويب تركز على المطاعم مصممة لعرض المطعم رقمياً بواجهة نظيفة وحديثة وصديقة للعملاء.">A restaurant-focused web experience designed to present the restaurant digitally with a clean, modern, customer-friendly interface.</p>
+                        <div class="project-technologies">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Responsive Design</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://restaurant220.netlify.app/" target="_blank" rel="noopener noreferrer" class="project-link primary" aria-label="View Restaurant 220 Live Demo">
+                                <span data-en="LIVE DEMO" data-ar="عرض مباشر">LIVE DEMO</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Section -->
+    <section class="github-section">
+        <div class="github-content">
+            <h2 class="github-title" data-en="GITHUB" data-ar="جيت هب">GITHUB</h2>
+            <p class="github-description" data-en="Explore my code repositories and open-source contributions." data-ar="استكشف مستودعات الكود والمساهمات مفتوحة المصدر.">Explore my code repositories and open-source contributions.</p>
+            <a href="https://github.com/Mo-aini" target="_blank" rel="noopener noreferrer" class="github-link" aria-label="View GitHub Profile">
+                <svg class="github-link-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <span data-en="VISIT PROFILE" data-ar="زيارة الملف الشخصي">VISIT PROFILE</span>
+            </a>
+        </div>
+    </section>
+
+    <!-- Services / Expertise -->
+    <section id="expertise" class="services">
+        <div class="services-header">
+            <h2 class="services-title" data-en="WHAT I BUILD" data-ar="ما أبنيه">WHAT I BUILD</h2>
+        </div>
+        
+        <div class="services-scroll">
+            <div class="service-item">
+                <span class="service-number">01</span>
+                <h3 class="service-title" data-en="WEB DEVELOPMENT" data-ar="تطوير الويب">WEB DEVELOPMENT</h3>
+                <p class="service-description" data-en="Modern responsive websites and web applications." data-ar="مواقع الويب الحديثة وتطبيقات الويب المتجاوبة.">Modern responsive websites and web applications.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">02</span>
+                <h3 class="service-title" data-en="FULL-STACK DEVELOPMENT" data-ar="تطوير Full-Stack">FULL-STACK DEVELOPMENT</h3>
+                <p class="service-description" data-en="Frontend interfaces, backend logic, APIs, authentication and databases." data-ar="واجهات الواجهة الأمامية، المنطق الخلفي، واجهات برمجة التطبيقات، المصادقة وقواعد البيانات.">Frontend interfaces, backend logic, APIs, authentication and databases.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">03</span>
+                <h3 class="service-title" data-en="BUSINESS WEBSITES" data-ar="مواقع الأعمال">BUSINESS WEBSITES</h3>
+                <p class="service-description" data-en="Professional websites for businesses, hospitality, real estate and customer-facing services." data-ar="مواقع احترافية للشركات والضيافة والعقارات والخدمات الموجهة للعملاء.">Professional websites for businesses, hospitality, real estate and customer-facing services.</p>
+            </div>
+            <div class="service-item">
+                <span class="service-number">04</span>
+                <h3 class="service-title" data-en="DATABASE SYSTEMS" data-ar="أنظمة قواعد البيانات">DATABASE SYSTEMS</h3>
+                <p class="service-description" data-en="Structured database-driven applications and management systems." data-ar="تطبيقات قاعدة البيانات المنظمة وأنظمة الإدارة.">Structured database-driven applications and management systems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process -->
+    <section class="process">
+        <div class="process-header">
+            <h2 class="process-title" data-en="HOW I BUILD" data-ar="كيف أبني">HOW I BUILD</h2>
+        </div>
+        
+        <div class="process-timeline">
+            <div class="process-line"></div>
+            <div class="process-item">
+                <div class="process-number">01</div>
+                <div class="process-content">
+                    <h3 class="process-step" data-en="UNDERSTAND" data-ar="فهم">UNDERSTAND</h3>
+                    <p class="process-text" data-en="Understand the idea, requirements, users and goals." data-ar="فهم الفكرة والمتطلبات والمستخدمين والأهداف.">Understand the idea, requirements, users and goals.</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">02</div>
+                <div class="process-content">
+                    <h3 class="process-step" data-en="PLAN" data-ar="تخطيط">PLAN</h3>
+                    <p class="process-text" data-en="Structure the application, architecture and database." data-ar="هيكلة التطبيق والهندسة وقاعدة البيانات.">Structure the application, architecture and database.</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">03</div>
+                <div class="process-content">
+                    <h3 class="process-step" data-en="BUILD" data-ar="بناء">BUILD</h3>
+                    <p class="process-text" data-en="Develop the interface, system logic, integrations and database operations." data-ar="تطوير الواجهة ومنطق النظام والتكاملات وعمليات قاعدة البيانات.">Develop the interface, system logic, integrations and database operations.</p>
+                </div>
+            </div>
+            <div class="process-item">
+                <div class="process-number">04</div>
+                <div class="process-content">
+                    <h3 class="process-step" data-en="REFINE" data-ar="تحسين">REFINE</h3>
+                    <p class="process-text" data-en="Test, improve responsiveness, fix issues and polish the final experience." data-ar="الاختبار وتحسين الاستجابة وإصلاح المشاكل وتلميع التجربة النهائية.">Test, improve responsiveness, fix issues and polish the final experience.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="contact-content">
+            <h2 class="contact-title">
+                <span class="contact-title-line" data-en="LET'S BUILD" data-ar="لنبنِ">LET'S BUILD</span>
+                <span class="contact-title-line" data-en="SOMETHING" data-ar="شيئًا">SOMETHING</span>
+                <span class="contact-title-line" data-en="EXTRAORDINARY." data-ar="استثنائيًا.">EXTRAORDINARY.</span>
+            </h2>
+            <p class="contact-subtitle" data-en="Have a project, idea, or opportunity in mind? Let's talk." data-ar="لديك مشروع أو فكرة أو فرصة؟ لنحدث.">Have a project, idea, or opportunity in mind? Let's talk.</p>
+
+            <div class="contact-info">
+                <button id="copy-email" class="contact-link" onclick="copyEmail()">
+                    <span class="contact-label" data-en="EMAIL" data-ar="البريد الإلكتروني">EMAIL</span>
+                    <span class="contact-value" id="email-value">mo.emad.alaini@gmail.com</span>
+                    <span class="contact-copy-hint" data-en="COPY EMAIL" data-ar="نسخ البريد">COPY EMAIL</span>
+                </button>
+                <a href="tel:+967777136004" class="contact-link">
+                    <span class="contact-label" data-en="YEMEN" data-ar="اليمن">YEMEN</span>
+                    <span class="contact-value">+967 777 136 004</span>
+                </a>
+                <a href="tel:+923111776693" class="contact-link">
+                    <span class="contact-label" data-en="PAKISTAN" data-ar="باكستان">PAKISTAN</span>
+                    <span class="contact-value">+92 311 177 6693</span>
+                </a>
+            </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-field">
+                    <label for="form-name" data-en="NAME" data-ar="الاسم">NAME</label>
+                    <input type="text" id="form-name" name="name" required>
+                </div>
+                <div class="form-field">
+                    <label for="form-email" data-en="EMAIL" data-ar="البريد الإلكتروني">EMAIL</label>
+                    <input type="email" id="form-email" name="email" required>
+                </div>
+                <div class="form-field">
+                    <label for="form-subject" data-en="SUBJECT" data-ar="الموضوع">SUBJECT</label>
+                    <input type="text" id="form-subject" name="subject" required>
+                </div>
+                <div class="form-field">
+                    <label for="form-message" data-en="MESSAGE" data-ar="الرسالة">MESSAGE</label>
+                    <textarea id="form-message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="form-submit" data-en="SEND MESSAGE" data-ar="إرسال الرسالة">
+                    SEND MESSAGE
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-left">
+                <span class="footer-logo" data-en="MEA" data-ar="م ع ع">MEA</span>
+                <span class="footer-name" data-en="MOHAMMED EMAD ALAINI" data-ar="محمد عماد العيني">MOHAMMED EMAD ALAINI</span>
+                <span class="footer-title" data-en="SOFTWARE ENGINEER" data-ar="مهندس برمجيات">SOFTWARE ENGINEER</span>
+                <span class="footer-subtitle" data-en="FULL-STACK DEVELOPER" data-ar="مطور Full-Stack">FULL-STACK DEVELOPER</span>
+            </div>
+
+            <nav class="footer-nav">
+                <a href="#home" class="footer-link" data-en="HOME" data-ar="الرئيسية">HOME</a>
+                <a href="#about" class="footer-link" data-en="ABOUT" data-ar="نبذة عني">ABOUT</a>
+                <a href="#work" class="footer-link" data-en="WORK" data-ar="أعمالي">WORK</a>
+                <a href="#expertise" class="footer-link" data-en="EXPERTISE" data-ar="الخبرات">EXPERTISE</a>
+                <a href="#contact" class="footer-link" data-en="CONTACT" data-ar="تواصل معي">CONTACT</a>
+            </nav>
+
+            <div class="footer-right">
+                <span class="footer-copyright" data-en="© 2026 Mohammed Emad Alaini. All rights reserved." data-ar="© 2026 محمد عماد العيني. جميع الحقوق محفوظة.">© 2026 Mohammed Emad Alaini. All rights reserved.</span>
+                <a href="#home" class="footer-top" data-en="BACK TO TOP ↑" data-ar="العودة للأعلى ↑">BACK TO TOP ↑</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- GSAP Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.29/bundled/lenis.min.js"></script>
+    
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
